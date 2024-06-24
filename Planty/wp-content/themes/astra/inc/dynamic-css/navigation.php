@@ -69,7 +69,7 @@ function astra_navigation_css( $dynamic_css ) {
 				right: 0;
 				width: 1px;
 				height: 50%;
-				background: var(--ast-single-post-border, var(--ast-border-color));
+				background-color: white);
 			}
 		}
 		@media( max-width: ' . $mobile_breakpoint . 'px ) {
