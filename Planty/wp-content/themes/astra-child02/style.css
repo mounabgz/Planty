@@ -85,9 +85,10 @@ Updated: 2024-06-13 15:19:20
     border-bottom-left-radius: 30% 10%;
     border-bottom-right-radius: 30% 10%;
     
-    background-image: url('Group-4.png'), url('Group-3.png');
-    background-repeat: no-repeat, no-repeat;
-    background-position: 37% 83%, 63% 83%;
+    background-image: url('branches.png');
+    background-repeat: no-repeat;
+    background-position: 50% 340%;
+    background-position: fixed;
 }
 
 .wp-block-uagb-container.uagb-block-00d74575{
@@ -197,7 +198,7 @@ justify-content: space-around;
     }
 }
 
-@media(max-width: 768px) {
+@media(max-width: 1052px) {
     .wp-block-uagb-container.uagb-block-04728eda {
         background-image: none;
     }

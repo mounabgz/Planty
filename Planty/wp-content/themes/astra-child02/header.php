@@ -38,7 +38,7 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
 
  <!-- MON MENU-->
 <header>
-<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo">
+	<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo">
 		<?php
     		$custom_logo_id = get_theme_mod( 'custom_logo' );
     		$logo = wp_get_attachment_image_src( $custom_logo_id , 'full');
@@ -54,7 +54,7 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
 		'theme_location' => 'En tête du menu',
 		'container_class' => 'categories',
 		'container_id' => 'menu'
-		) );?>
+	) );?>
 </header>
 
 <body <?php astra_schema_body(); ?> <?php body_class(); ?>>
